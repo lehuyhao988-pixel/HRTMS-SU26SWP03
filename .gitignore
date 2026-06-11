@@ -1,0 +1,59 @@
+# ==========================================
+# 1. CẤU HÌNH CHO BACKEND (.NET 8 C#)
+# ==========================================
+# Bỏ qua các thư mục biên dịch sinh ra tự động
+[Bb]in/
+[Oo]bj/
+
+# Bỏ qua các file cấu hình và bộ nhớ đệm của Visual Studio / VS Code
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Bỏ qua file chứa chuỗi kết nối Database cục bộ (Bảo mật)
+appsettings.Development.json
+appsettings.local.json
+
+# ==========================================
+# 2. CẤU HÌNH CHO FRONTEND (React)
+# ==========================================
+# Bỏ qua thư viện tải về (Kích thước cực lớn)
+node_modules/
+
+# Bỏ qua thư mục build khi đóng gói sản phẩm
+build/
+dist/
+
+# Bỏ qua các file cấu hình môi trường (Chứa API Key, Token Secret)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Bỏ qua log lỗi của npm/yarn
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ==========================================
+# 3. CẤU HÌNH HỆ ĐIỀU HÀNH & CÔNG CỤ CHUNG
+# ==========================================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Cấu hình workspace cá nhân của VS Code (tùy chọn)
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
